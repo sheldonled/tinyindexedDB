@@ -1,7 +1,7 @@
 (function(window) {
   'use strict';
 
-  const localDB = function (dbName, dbVersion, mainStoreName) {
+  const tinyIndexedDB = function (dbName, dbVersion, mainStoreName) {
     this.indexedDB = (window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB);
     this.dbName = dbName;
     this.dbVersion = dbVersion;
@@ -122,6 +122,6 @@
     openDB(this.mainStoreName).then(db => db.close());
   };
 
-  window.localDB = localDB;
+  window.tinyIndexedDB = tinyIndexedDB;
 
 })(this);
