@@ -2,6 +2,8 @@
 A lib built to learn IndexedDB. Promise based. Very opinionated and not ready for production ;)
 
 It's built to be small, still work in progress, not sure what this will be used for.
+## Demo:
+I built this [pen on Codepen](https://codepen.io/sheldonled/pen/zpmjXJ) to test this thing out =)
 
 ## Example of usage
 
