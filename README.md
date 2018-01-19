@@ -9,7 +9,7 @@ Right now the lib is built to be exported to the window object:
 ### Init and add something
 ```
 //db name, db version, main store name (like a table in Relational DB)
-myDB: new localDB("myLocalDB", 1, "myMainStoreName");
+myDB: new tinyIndexedDB("myLocalDB", 1, "myMainStoreName");
 
 //meant to be used as add and update (should rely on an ID or other key attribute)
 myDB.set({
