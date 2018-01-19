@@ -1,4 +1,4 @@
-# tinyindexedDB
+# tinyIndexedDB
 A lib built to learn IndexedDB. Promise based. Very opinionated and not ready for production ;)
 
 It's built to be small, still work in progress, not sure what this will be used for.
